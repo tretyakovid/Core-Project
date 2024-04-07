@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Core</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="/../" class="header__logo-link select">
+          <img src="./assets/img/logo.svg" alt="logo" />
+        </a>
+        <nav class="header__nav select">
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./technology.html" class="nav-link">Technology</a>
+          <a href="./contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="header__right-link-block select">
+          <a href="#" class="header__cart-button animation">Cart</a>
+          <a href="#" class="header__start-button animation">Get Started</a>
+          <div class="header__burger burger">
+            <span></span>
+          </div>
+        </div>
+        <div class="header__shadow"></div>
+      </div>
+    </header>
+    <div class="burger-menu">
+      <nav class="burger-menu__nav">
+        <a href="./index.html" class="burger-menu__nav-link nav-link">Home</a>
+        <a href="./technology.html" class="burger-menu__nav-link nav-link"
+          >Technology</a
+        >
+        <a href="./contact.html" class="burger-menu__nav-link nav-link"
+          >Contact</a
+        >
+      </nav>
+    </div>
+    <main>
+      <section class="contact">
+        <div class="wrapper">
+          <div class="label select">Contact</div>
+          <h1 class="contact__heading select">Get In Touch</h1>
+          <div class="subheading contact__subheading select">
+            Nulla lorem semper eleifend integer lorem. Parturient massa turpis
+            scelerisque ut.
+          </div>
+          <form class="contact__form select">
+            <input
+              class="contact__field"
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="First Name"
+            />
+            <input
+              class="contact__field"
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Last Name"
+            />
+            <input
+              class="contact__field"
+              type="email"
+              name="email-adress"
+              id="email-adress"
+              placeholder="Email Adress"
+            />
+            <textarea
+              cols="30"
+              rows="10"
+              class="contact__field contact__textarea"
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="contact__button button animation">
+              Submit
+            </button>
+          </form>
+          <div class="glow"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer select">
+      <div class="wrapper">
+        <div class="footer__content">
+          <div class="footer__block">
+            <img class="footer__logo" src="./assets/img/logo.svg" alt="logo" />
+            <p>
+              A highly scalable, fast and secure blockchain platform for
+              distributed apps, enterprise use cases and the new internet
+              economy.
+            </p>
+            <a class="footer__mail" href="mailto:info@yoursite.com"
+              >info@yoursite.com</a
+            >
+          </div>
+          <div class="footer__block">
+            <h5 class="footer__block-heading">Quick Links</h5>
+            <a href="#">About</a>
+            <a href="#">Technology</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer__block">
+            <h5 class="footer__block-heading">Social</h5>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+          </div>
+          <div class="footer__block">
+            <h5 class="footer__block-heading">Template</h5>
+            <a href="#">Licensing</a>
+            <a href="#">Style Guide</a>
+            <a href="#">Changelog</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
